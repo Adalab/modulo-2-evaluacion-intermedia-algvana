@@ -30,7 +30,7 @@ if (optionThreeValue && randomNumber >= 7){
     result.innerHTML = 'Has Ganado';
 } else if (optionTwoValue && randomNumber <= 3) {
     result.innerHTML = 'Has Ganado';
-}else if (optionOneValue && randomNumber >= 5) {
+}else if (optionOneValue && randomNumber <= 5) {
     result.innerHTML = 'Has Ganado';
 } else {result.innerHTML = 'Has Perdido';}
 }
